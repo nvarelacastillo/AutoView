@@ -12,15 +12,13 @@ struct CoverPageView: View {
         NavigationView {
             VStack {
                 Spacer()
-                
-                //App Title
+            
                 Text("AutoView")
                     .font(.largeTitle)
                     .fontWeight(.bold)
                     .foregroundColor(Color(red: 0.81, green: 0.68, blue: 0.91))
                     .padding()
 
-                //App Icon (Will chnage later)
                 Image(systemName: "car.fill")
                     .resizable()
                     .scaledToFit()
@@ -30,7 +28,6 @@ struct CoverPageView: View {
 
                 Spacer()
                 
-                //Navigation Button
                 NavigationLink(destination: ContentView()) {
                     Text("View Cars")
                         .font(.headline)
@@ -43,7 +40,7 @@ struct CoverPageView: View {
                 .padding(.horizontal)
                 .padding(.bottom)
             }
-            .navigationBarHidden(true)// Hide navigation bar on cover page
+            .navigationBarHidden(true)
         }
     }
 }

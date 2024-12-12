@@ -29,12 +29,10 @@ struct CarDetailView: View {
             Spacer()
         }
         .padding()
-        .navigationTitle(car.modelName) // Use the title in the existing NavigationView
-    }
+        .navigationTitle(car.modelName)    }
 }
 
 
-// Preview for CarDetailView
 #Preview {
     CarDetailView(car: Car(modelName: "Car 1", year: "2022"))
 }

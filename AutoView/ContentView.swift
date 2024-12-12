@@ -21,7 +21,6 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            // Title
             Text("AutoView")
                 .font(.custom("Futura", size: 30))
                 .bold()
@@ -32,7 +31,6 @@ struct ContentView: View {
                 ForEach(isFiltering ? filteredCars : cars) { car in
                     NavigationLink(destination: CarDetailView(car: car)) {
                         HStack {
-                            // Car Icon
                             Circle()
                                 .frame(width: 50, height: 50)
                                 .foregroundColor(Color(red: 0.81, green: 0.68, blue: 0.91))
@@ -41,7 +39,6 @@ struct ContentView: View {
                                         .foregroundColor(.white)
                                 )
 
-                            // Car Details
                             VStack(alignment: .leading) {
                                 Text(car.modelName)
                                     .font(.headline)
@@ -61,9 +58,9 @@ struct ContentView: View {
                 }
             }
 
-            //Filter Button
+       
             Button(action: {
-                showFilterSheet = true //Show the sheet for filtering
+                showFilterSheet = true
             }) {
                 Text("Filter")
                     .font(.headline)
@@ -76,16 +73,16 @@ struct ContentView: View {
             .padding(.horizontal)
             .padding(.bottom)
             .sheet(isPresented: $showFilterSheet) {
-                // Filter Sheet
+               
                 FilterView(
                     selectedYear: $selectedYear,
                     onApply: {
                         applyFilter()
-                        showFilterSheet = false // Dismiss the sheet
+                        showFilterSheet = false
                     },
                     onCancel: {
                         cancelFilter()
-                        showFilterSheet = false // Dismiss the sheet
+                        showFilterSheet = false
                     }
                 )
             }
@@ -94,17 +91,17 @@ struct ContentView: View {
     
     func applyFilter() {
         if selectedYear.isEmpty {
-            // Show all cars if no year is selected
+         
             isFiltering = false
         } else {
-            // Filter cars by the selected year
+ 
             filteredCars = cars.filter { $0.year == selectedYear }
             isFiltering = true
         }
     }
     
     func cancelFilter() {
-        // Reset the filter and show all cars
+ 
         isFiltering = false
         selectedYear = ""
     }
@@ -115,7 +112,7 @@ struct FilterView: View {
     var onApply: () -> Void
     var onCancel: () -> Void
 
-    let years = ["2022", "2023", "2024", "2025"] // Example years
+    let years = ["2022", "2023", "2024", "2025"]
 
     var body: some View {
         NavigationView {
@@ -133,9 +130,9 @@ struct FilterView: View {
                 .pickerStyle(WheelPickerStyle())
                 .padding()
 
-                // Apply Button
+     
                 Button(action: {
-                    onApply() // Apply filter
+                    onApply()
                 }) {
                     Text("Apply Filter")
                         .bold()
@@ -147,9 +144,9 @@ struct FilterView: View {
                 }
                 .padding()
 
-                // Cancel Button
+         
                 Button(action: {
-                    onCancel() // Cancel filter
+                    onCancel()
                 }) {
                     Text("Cancel")
                         .foregroundColor(.red)
