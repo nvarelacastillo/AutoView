@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		433F42512D147AFD00A2C3F2 /* AutoViewAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433F42502D147AFD00A2C3F2 /* AutoViewAppApp.swift */; };
+		433F42512D147AFD00A2C3F2 /* AutoViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433F42502D147AFD00A2C3F2 /* AutoViewApp.swift */; };
 		433F42552D147AFD00A2C3F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 433F42542D147AFD00A2C3F2 /* Assets.xcassets */; };
 		433F42582D147AFD00A2C3F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 433F42572D147AFD00A2C3F2 /* Preview Assets.xcassets */; };
 		433F426D2D147B3E00A2C3F2 /* LandRoverDefenderLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433F425E2D147B3D00A2C3F2 /* LandRoverDefenderLinks.swift */; };
@@ -30,7 +30,7 @@
 
 /* Begin PBXFileReference section */
 		433F424D2D147AFD00A2C3F2 /* AutoViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		433F42502D147AFD00A2C3F2 /* AutoViewAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoViewAppApp.swift; sourceTree = "<group>"; };
+		433F42502D147AFD00A2C3F2 /* AutoViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoViewApp.swift; sourceTree = "<group>"; };
 		433F42542D147AFD00A2C3F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		433F42572D147AFD00A2C3F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		433F425E2D147B3D00A2C3F2 /* LandRoverDefenderLinks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandRoverDefenderLinks.swift; sourceTree = "<group>"; };
@@ -81,7 +81,7 @@
 		433F424F2D147AFD00A2C3F2 /* AutoViewApp */ = {
 			isa = PBXGroup;
 			children = (
-				433F42502D147AFD00A2C3F2 /* AutoViewAppApp.swift */,
+				433F42502D147AFD00A2C3F2 /* AutoViewApp.swift */,
 				433F427F2D1488B300A2C3F2 /* StartPageView.swift */,
 				433F426B2D147B3E00A2C3F2 /* ContentView.swift */,
 				433F42672D147B3D00A2C3F2 /* CarDataView.swift */,
@@ -186,7 +186,7 @@
 				433F42792D147B3E00A2C3F2 /* LexusRXLinks.swift in Sources */,
 				433F426D2D147B3E00A2C3F2 /* LandRoverDefenderLinks.swift in Sources */,
 				433F426F2D147B3E00A2C3F2 /* BmwX3Links.swift in Sources */,
-				433F42512D147AFD00A2C3F2 /* AutoViewAppApp.swift in Sources */,
+				433F42512D147AFD00A2C3F2 /* AutoViewApp.swift in Sources */,
 				433F42802D1488B300A2C3F2 /* StartPageView.swift in Sources */,
 				433F42702D147B3E00A2C3F2 /* Porsche911Links.swift in Sources */,
 				433F42742D147B3E00A2C3F2 /* CarResponse.swift in Sources */,
