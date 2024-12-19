@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		433F42512D147AFD00A2C3F2 /* AutoViewAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433F42502D147AFD00A2C3F2 /* AutoViewAppApp.swift */; };
+		433F42552D147AFD00A2C3F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 433F42542D147AFD00A2C3F2 /* Assets.xcassets */; };
+		433F42582D147AFD00A2C3F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 433F42572D147AFD00A2C3F2 /* Preview Assets.xcassets */; };
+		433F426D2D147B3E00A2C3F2 /* LandRoverDefenderLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433F425E2D147B3D00A2C3F2 /* LandRoverDefenderLinks.swift */; };
+		433F426E2D147B3E00A2C3F2 /* ModelYearList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433F425F2D147B3D00A2C3F2 /* ModelYearList.swift */; };
+		433F426F2D147B3E00A2C3F2 /* BmwX3Links.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433F42602D147B3D00A2C3F2 /* BmwX3Links.swift */; };
+		433F42702D147B3E00A2C3F2 /* Porsche911Links.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433F42612D147B3D00A2C3F2 /* Porsche911Links.swift */; };
+		433F42712D147B3E00A2C3F2 /* ToyotaCamryLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433F42622D147B3D00A2C3F2 /* ToyotaCamryLinks.swift */; };
+		433F42722D147B3E00A2C3F2 /* LexusISLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433F42632D147B3D00A2C3F2 /* LexusISLinks.swift */; };
+		433F42732D147B3E00A2C3F2 /* CarDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433F42642D147B3D00A2C3F2 /* CarDataFetcher.swift */; };
+		433F42742D147B3E00A2C3F2 /* CarResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433F42652D147B3D00A2C3F2 /* CarResponse.swift */; };
+		433F42752D147B3E00A2C3F2 /* Bmw3SeriesLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433F42662D147B3D00A2C3F2 /* Bmw3SeriesLinks.swift */; };
+		433F42762D147B3E00A2C3F2 /* CarDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433F42672D147B3D00A2C3F2 /* CarDataView.swift */; };
+		433F42772D147B3E00A2C3F2 /* MazdaCX5Links.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433F42682D147B3E00A2C3F2 /* MazdaCX5Links.swift */; };
+		433F42782D147B3E00A2C3F2 /* HondaCivicLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433F42692D147B3E00A2C3F2 /* HondaCivicLinks.swift */; };
+		433F42792D147B3E00A2C3F2 /* LexusRXLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433F426A2D147B3E00A2C3F2 /* LexusRXLinks.swift */; };
+		433F427A2D147B3E00A2C3F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433F426B2D147B3E00A2C3F2 /* ContentView.swift */; };
+		433F427B2D147B3E00A2C3F2 /* NissanGTRLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433F426C2D147B3E00A2C3F2 /* NissanGTRLinks.swift */; };
+		433F42802D1488B300A2C3F2 /* StartPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433F427F2D1488B300A2C3F2 /* StartPageView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		433F424D2D147AFD00A2C3F2 /* AutoViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		433F42502D147AFD00A2C3F2 /* AutoViewAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoViewAppApp.swift; sourceTree = "<group>"; };
+		433F42542D147AFD00A2C3F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		433F42572D147AFD00A2C3F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		433F425E2D147B3D00A2C3F2 /* LandRoverDefenderLinks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandRoverDefenderLinks.swift; sourceTree = "<group>"; };
+		433F425F2D147B3D00A2C3F2 /* ModelYearList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelYearList.swift; sourceTree = "<group>"; };
+		433F42602D147B3D00A2C3F2 /* BmwX3Links.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BmwX3Links.swift; sourceTree = "<group>"; };
+		433F42612D147B3D00A2C3F2 /* Porsche911Links.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Porsche911Links.swift; sourceTree = "<group>"; };
+		433F42622D147B3D00A2C3F2 /* ToyotaCamryLinks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToyotaCamryLinks.swift; sourceTree = "<group>"; };
+		433F42632D147B3D00A2C3F2 /* LexusISLinks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LexusISLinks.swift; sourceTree = "<group>"; };
+		433F42642D147B3D00A2C3F2 /* CarDataFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarDataFetcher.swift; sourceTree = "<group>"; };
+		433F42652D147B3D00A2C3F2 /* CarResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarResponse.swift; sourceTree = "<group>"; };
+		433F42662D147B3D00A2C3F2 /* Bmw3SeriesLinks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bmw3SeriesLinks.swift; sourceTree = "<group>"; };
+		433F42672D147B3D00A2C3F2 /* CarDataView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarDataView.swift; sourceTree = "<group>"; };
+		433F42682D147B3E00A2C3F2 /* MazdaCX5Links.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MazdaCX5Links.swift; sourceTree = "<group>"; };
+		433F42692D147B3E00A2C3F2 /* HondaCivicLinks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HondaCivicLinks.swift; sourceTree = "<group>"; };
+		433F426A2D147B3E00A2C3F2 /* LexusRXLinks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LexusRXLinks.swift; sourceTree = "<group>"; };
+		433F426B2D147B3E00A2C3F2 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		433F426C2D147B3E00A2C3F2 /* NissanGTRLinks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NissanGTRLinks.swift; sourceTree = "<group>"; };
+		433F427F2D1488B300A2C3F2 /* StartPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartPageView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		433F424A2D147AFD00A2C3F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		433F42442D147AFD00A2C3F2 = {
+			isa = PBXGroup;
+			children = (
+				433F424F2D147AFD00A2C3F2 /* AutoViewApp */,
+				433F424E2D147AFD00A2C3F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		433F424E2D147AFD00A2C3F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				433F424D2D147AFD00A2C3F2 /* AutoViewApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		433F424F2D147AFD00A2C3F2 /* AutoViewApp */ = {
+			isa = PBXGroup;
+			children = (
+				433F42502D147AFD00A2C3F2 /* AutoViewAppApp.swift */,
+				433F427F2D1488B300A2C3F2 /* StartPageView.swift */,
+				433F426B2D147B3E00A2C3F2 /* ContentView.swift */,
+				433F42672D147B3D00A2C3F2 /* CarDataView.swift */,
+				433F42662D147B3D00A2C3F2 /* Bmw3SeriesLinks.swift */,
+				433F42602D147B3D00A2C3F2 /* BmwX3Links.swift */,
+				433F42642D147B3D00A2C3F2 /* CarDataFetcher.swift */,
+				433F42652D147B3D00A2C3F2 /* CarResponse.swift */,
+				433F42692D147B3E00A2C3F2 /* HondaCivicLinks.swift */,
+				433F425E2D147B3D00A2C3F2 /* LandRoverDefenderLinks.swift */,
+				433F42632D147B3D00A2C3F2 /* LexusISLinks.swift */,
+				433F426A2D147B3E00A2C3F2 /* LexusRXLinks.swift */,
+				433F42682D147B3E00A2C3F2 /* MazdaCX5Links.swift */,
+				433F425F2D147B3D00A2C3F2 /* ModelYearList.swift */,
+				433F426C2D147B3E00A2C3F2 /* NissanGTRLinks.swift */,
+				433F42612D147B3D00A2C3F2 /* Porsche911Links.swift */,
+				433F42622D147B3D00A2C3F2 /* ToyotaCamryLinks.swift */,
+				433F42542D147AFD00A2C3F2 /* Assets.xcassets */,
+				433F42562D147AFD00A2C3F2 /* Preview Content */,
+			);
+			path = AutoViewApp;
+			sourceTree = "<group>";
+		};
+		433F42562D147AFD00A2C3F2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				433F42572D147AFD00A2C3F2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		433F424C2D147AFD00A2C3F2 /* AutoViewApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 433F425B2D147AFD00A2C3F2 /* Build configuration list for PBXNativeTarget "AutoViewApp" */;
+			buildPhases = (
+				433F42492D147AFD00A2C3F2 /* Sources */,
+				433F424A2D147AFD00A2C3F2 /* Frameworks */,
+				433F424B2D147AFD00A2C3F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoViewApp;
+			productName = AutoViewApp;
+			productReference = 433F424D2D147AFD00A2C3F2 /* AutoViewApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		433F42452D147AFD00A2C3F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					433F424C2D147AFD00A2C3F2 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 433F42482D147AFD00A2C3F2 /* Build configuration list for PBXProject "AutoViewApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 433F42442D147AFD00A2C3F2;
+			productRefGroup = 433F424E2D147AFD00A2C3F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				433F424C2D147AFD00A2C3F2 /* AutoViewApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		433F424B2D147AFD00A2C3F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				433F42582D147AFD00A2C3F2 /* Preview Assets.xcassets in Resources */,
+				433F42552D147AFD00A2C3F2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		433F42492D147AFD00A2C3F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				433F42732D147B3E00A2C3F2 /* CarDataFetcher.swift in Sources */,
+				433F42792D147B3E00A2C3F2 /* LexusRXLinks.swift in Sources */,
+				433F426D2D147B3E00A2C3F2 /* LandRoverDefenderLinks.swift in Sources */,
+				433F426F2D147B3E00A2C3F2 /* BmwX3Links.swift in Sources */,
+				433F42512D147AFD00A2C3F2 /* AutoViewAppApp.swift in Sources */,
+				433F42802D1488B300A2C3F2 /* StartPageView.swift in Sources */,
+				433F42702D147B3E00A2C3F2 /* Porsche911Links.swift in Sources */,
+				433F42742D147B3E00A2C3F2 /* CarResponse.swift in Sources */,
+				433F42762D147B3E00A2C3F2 /* CarDataView.swift in Sources */,
+				433F42722D147B3E00A2C3F2 /* LexusISLinks.swift in Sources */,
+				433F427B2D147B3E00A2C3F2 /* NissanGTRLinks.swift in Sources */,
+				433F42772D147B3E00A2C3F2 /* MazdaCX5Links.swift in Sources */,
+				433F42782D147B3E00A2C3F2 /* HondaCivicLinks.swift in Sources */,
+				433F427A2D147B3E00A2C3F2 /* ContentView.swift in Sources */,
+				433F42752D147B3E00A2C3F2 /* Bmw3SeriesLinks.swift in Sources */,
+				433F42712D147B3E00A2C3F2 /* ToyotaCamryLinks.swift in Sources */,
+				433F426E2D147B3E00A2C3F2 /* ModelYearList.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		433F42592D147AFD00A2C3F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		433F425A2D147AFD00A2C3F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		433F425C2D147AFD00A2C3F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AutoViewApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 5GNPHM2ZQ8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NicoleVC.AutoViewApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		433F425D2D147AFD00A2C3F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AutoViewApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 5GNPHM2ZQ8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NicoleVC.AutoViewApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		433F42482D147AFD00A2C3F2 /* Build configuration list for PBXProject "AutoViewApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				433F42592D147AFD00A2C3F2 /* Debug */,
+				433F425A2D147AFD00A2C3F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		433F425B2D147AFD00A2C3F2 /* Build configuration list for PBXNativeTarget "AutoViewApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				433F425C2D147AFD00A2C3F2 /* Debug */,
+				433F425D2D147AFD00A2C3F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 433F42452D147AFD00A2C3F2 /* Project object */;
+}
