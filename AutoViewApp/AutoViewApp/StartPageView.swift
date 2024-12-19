@@ -21,7 +21,7 @@ struct StartPageView: View {
                             .font(.headline)
                             .foregroundColor(.black)
                             .frame(width: 220, height: 50)
-                            .background(Color(red: 253 / 255, green: 255 / 255, blue: 182 / 255)) // Same as "#FDFFB6"
+                            .background(Color(red: 253 / 255, green: 255 / 255, blue: 182 / 255))
                             .cornerRadius(0)
                     }
                     .padding(.bottom, 230)
